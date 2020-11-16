@@ -3,7 +3,7 @@ export const API = process.env.NEXT_PUBLIC_PRODUCTION
   : process.env.API_DEVELOPMENT;
 
 export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME;
-
+console.log(process.env, "please mostra alguma cena caralho", API);
 export const DOMAIN = process.env.NEXT_PUBLIC_PRODUCTION
   ? process.env.NEXT_PUBLIC_DOMAIN_PRODUCTION
   : process.env.NEXT_PUBLIC_DOMAIN_DEVELOPMENT;
