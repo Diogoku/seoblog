@@ -107,8 +107,6 @@ function ProfileUpdate() {
     });
   };
 
-  console.log(values);
-
   const profileUpdateForm = () => (
     <form onSubmit={handleSubmit}>
       <div className="form-group">
