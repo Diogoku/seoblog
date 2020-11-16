@@ -1,15 +1,15 @@
-export const API = process.env.NEXT_PUBLIC_PRODUCTION
+export const API = process.env.PRODUCTION
   ? "https://seoblog-gamma.vercel.app/"
   : process.env.API_DEVELOPMENT;
 
-export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME;
-console.log(process.env, "please mostra alguma cena caralho", API);
-export const DOMAIN = process.env.NEXT_PUBLIC_PRODUCTION
-  ? process.env.NEXT_PUBLIC_DOMAIN_PRODUCTION
-  : process.env.NEXT_PUBLIC_DOMAIN_DEVELOPMENT;
+export const APP_NAME = process.env.APP_NAME;
 
-export const FB_APP_ID = process.env.NEXT_PUBLIC_FB_APP_ID;
+export const DOMAIN = process.env.PRODUCTION
+  ? process.env.DOMAIN_PRODUCTION
+  : process.env.DOMAIN_DEVELOPMENT;
 
-export const DISQUS_SHORTNAME = process.env.NEXT_PUBLIC_DISQUS_SHORTNAME;
+export const FB_APP_ID = process.env.FB_APP_ID;
 
-export const GOOGLE_CLIENT_ID = process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID;
+export const DISQUS_SHORTNAME = process.env.DISQUS_SHORTNAME;
+
+export const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
