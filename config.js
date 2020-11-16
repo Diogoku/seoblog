@@ -1,5 +1,5 @@
 export const API = process.env.PRODUCTION
-  ? "https://seoblog.com"
+  ? "https://seoblog-gamma.vercel.app/"
   : process.env.API_DEVELOPMENT;
 
 export const APP_NAME = process.env.APP_NAME;
