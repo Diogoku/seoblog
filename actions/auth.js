@@ -9,7 +9,7 @@ import cookie from "js-cookie";
 // NEXT ROUTER
 import Router from "next/router";
 
-console.log(process.env, "mostra fdp");
+console.log(process.env, API, "mostra fdp");
 
 // signup
 export const preSignup = (user) => {
