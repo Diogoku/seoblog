@@ -1,7 +1,7 @@
 export const API = process.env.NEXT_PUBLIC_PRODUCTION
   ? process.env.NEXT_PUBLIC_API_PRODUCTION
   : process.env.NEXT_PUBLIC_API_DEVELOPMENT;
-
+// alteracao
 export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME;
 
 export const DOMAIN = process.env.NEXT_PUBLIC_PRODUCTION
