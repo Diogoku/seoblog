@@ -9,8 +9,6 @@ import cookie from "js-cookie";
 // NEXT ROUTER
 import Router from "next/router";
 
-console.log(process.env.APP_NAME, API, "mostra fdp");
-
 // signup
 export const preSignup = (user) => {
   return fetch(`${API}/pre-signup`, {
